@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "me.geek.tom.snowglobeadventures.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MixinLanternBlock"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

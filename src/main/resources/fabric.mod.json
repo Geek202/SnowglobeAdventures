@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "snowglobe-adventures",
+  "version": "${version}",
+  "name": "Adventures in a Snowglobe",
+  "description": "Fun little games in a snowglobe",
+  "authors": [
+    "Tom_The_Geek"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/snowglobe-adventures/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.geek.tom.snowglobeadventures.SnowglobeAdventures"
+    ],
+    "client": [
+      "me.geek.tom.snowglobeadventures.SnowglobeAdventuresClient"
+    ],
+    "server": []
+  },
+  "mixins": [
+    "snowglobe-adventures.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.10.8",
+    "fabric": "*"
+  }
+}

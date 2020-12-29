@@ -1,0 +1,6 @@
+{
+  "parent": "snowglobe-adventures:block/bauble",
+  "textures": {
+    "texture": "snowglobe-adventures:block/bauble_green"
+  }
+}

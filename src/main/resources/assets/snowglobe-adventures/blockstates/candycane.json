@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "type=top": { "model": "snowglobe-adventures:block/candycane_top" },
+    "type=stalk": { "model": "snowglobe-adventures:block/candycane_stalk" }
+  }
+}
